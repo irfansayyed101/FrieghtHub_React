@@ -1,0 +1,97 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0; 
+}
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #ffffff;
+  font: 14px/1.4 "Helvetica Neue", "WeissenhofGrotesk-Regular",Arial,Tahoma;
+  width: 100%;
+  border:1px solid;
+}
+tr {
+  overflow-x: scroll;
+  cursor: pointer;
+}
+th,
+td {
+  padding: 15px 15px;
+  vertical-align: middle;
+  /* text-align: left; */
+}
+thead {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Lato;
+  border: 1px solid transparent;
+
+  max-width: 100%;
+  font-weight: 900;
+  line-height: 24px;
+  mix-blend-mode: normal;
+
+  color: rgba(51, 51, 51, .5);
+  background: rgba(255, 255, 255, .9);
+}
+thead tr th {
+  padding: 8px 15px;
+  border: 1px solid transparent;
+  background: #0397d9;
+  color: white;
+  text-align: left;
+}
+tbody {
+  max-width: 100%;
+}
+
+tbody tr:hover {    
+  background: #f0f0f2;
+  color: #000000;
+}
+td {
+  padding: 7px 7px;
+  text-align: left;
+}
+td:first-child {
+}
+
+
+.pagination {
+    margin-top: 25px;
+}
+.pagination span {
+  cursor: pointer;
+  color: #ffffff;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination span.active {
+  background-color: #0099FF;
+  color: white;
+  border: 1px solid #0099FF;
+}
+.sortTable{
+  text-align: left;
+}
+.searchTable{
+  text-align: right;
+}
+
+.tableComponent{
+  margin-top : 30px;
+}
+
+.addMargin{
+  margin-right: 20px;
+}
+.addMargin1{
+  margin-right: 20px;
+  color: #ffffff;
+}
